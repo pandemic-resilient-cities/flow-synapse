@@ -1,12 +1,44 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Independence</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Influenza forecast</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../forecast.css">
+  <script defer src="https://cdn.plot.ly/plotly-basic-4.1.1.min.js"></script>
+  <script type="module" src="../forecast.js"></script>
 </head>
 <body>
-  <h1>Independence</h1>
-  <p>No forecast available.</p>
-  <p>Last updated May 21, 2026 at 11:14 AM PDT.</p>
-  <p><a href="../">Back</a></p>
+  <main class="page">
+    <header>
+      <a class="back-link" href="../index.html" aria-label="Back to Oregon county map">← Oregon</a>
+      <h1>Influenza forecast for <span id="city-name">…</span></h1>
+      <p id="forecast-date" class="issue"></p>
+    </header>
+    <section class="chart-card" aria-labelledby="chart-heading">
+      <h2 id="chart-heading" class="sr-only">ED visits due to flu forecast</h2>
+      <p id="chart-status" role="status">Loading chart…</p>
+      <div id="forecast-chart" role="img" aria-label="ED visits due to flu, shown as a percentage of ED visits, with a median line and an 80% envelope."></div>
+      <div class="legend" aria-label="Chart legend">
+        <div class="legend-group">
+          <span><i class="line ed-line" aria-hidden="true"></i>Statewide this year</span>
+          <span><i class="line ed-last-year" aria-hidden="true"></i>Statewide last year</span>
+        </div>
+        <div class="legend-group">
+          <span><i class="line" aria-hidden="true"></i>City median</span>
+          <span><i class="band" aria-hidden="true"></i>80% envelope</span>
+        </div>
+      </div>
+    </section>
+    <footer>
+  <span>Oregon<br>State<br>University</span>
+  <span>Research use only</span>
+  <span>Methods</span>
+</footer>
+    <noscript><p>Enable JavaScript to view the chart. <a href="forecast.csv" download>Download the forecast CSV</a> or <a href="forecast.json" download>metadata</a>.</p></noscript>
+  </main>
 </body>
 </html>

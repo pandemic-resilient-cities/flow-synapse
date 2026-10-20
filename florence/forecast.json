@@ -1,0 +1,30 @@
+{
+  "city": "Florence",
+  "forecast_origin": "2026-10-07",
+  "issued_at": "2026-10-20T22:59:02+00:00",
+  "first_date": "2026-06-10",
+  "last_date": "2027-01-05",
+  "model_tag": "s11h1c1",
+  "quantity": "ED visits due to flu",
+  "units": "proportion of ED visits",
+  "smoothing": {
+    "window_days": 7,
+    "centered": true,
+    "min_periods": 1
+  },
+  "quantiles": {
+    "q10": 0.1,
+    "q50": 0.5,
+    "q90": 0.9
+  },
+  "display_units": "Percent of ED visits",
+  "display_multiplier": 100,
+  "edv_calibration": {
+    "model": "tanh_proportion",
+    "lower": 0.0,
+    "upper": 0.12,
+    "midpoint": 0.0038,
+    "rate": 675
+  },
+  "simulation_count": 100
+}
