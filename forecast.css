@@ -4,7 +4,7 @@ h1 { font-size: 18px; line-height: 1.25; font-weight: 500; letter-spacing: -.3px
 .issue { font-size: 11px; font-weight: 600; letter-spacing: 1.05px; color: #b8b9bd; margin: 0 0 12px; font-variant-numeric: tabular-nums; }
 .chart-card { min-width: 0; flex-shrink: 0; margin-block: auto; }
 .page > footer { margin-top: 0; }
-#forecast-chart { width: 100%; height: 490px; touch-action: pan-y; }
+#forecast-chart { width: 100%; height: clamp(260px, calc(100svh - 320px), 490px); touch-action: pan-y; }
 #chart-status { color: var(--muted); font-size: 13px; line-height: 1.5; }
 #chart-status:empty { display: none; }
 .legend { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; padding: 14px 0 25px; color: var(--muted); font-size: 11px; }

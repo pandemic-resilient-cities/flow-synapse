@@ -1,7 +1,7 @@
 {
   "city": "Madras",
   "forecast_origin": "2026-10-07",
-  "issued_at": "2026-10-20T23:30:00+00:00",
+  "issued_at": "2026-10-21T22:02:40+00:00",
   "first_date": "2026-06-10",
   "last_date": "2027-01-05",
   "model_tag": "s11h1c1",
@@ -22,9 +22,9 @@
   "edv_calibration": {
     "model": "tanh_proportion",
     "lower": 0.0,
-    "upper": 0.12,
-    "midpoint": 0.0038,
-    "rate": 675
+    "upper": 0.2,
+    "midpoint": 0.0045,
+    "rate": 650
   },
   "simulation_count": 100
 }
