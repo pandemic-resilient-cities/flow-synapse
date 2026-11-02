@@ -1,9 +1,9 @@
 {
   "city": "Milton-Freewater",
-  "forecast_origin": "2026-10-07",
-  "issued_at": "2026-10-23T19:18:40+00:00",
-  "first_date": "2026-06-10",
-  "last_date": "2027-01-05",
+  "forecast_origin": "2026-10-15",
+  "issued_at": "2026-11-02T17:59:17+00:00",
+  "first_date": "2026-06-18",
+  "last_date": "2027-01-13",
   "model_tag": "s11h1c1",
   "quantity": "ED visits due to flu",
   "units": "proportion of ED visits",
