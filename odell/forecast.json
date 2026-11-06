@@ -1,9 +1,9 @@
 {
   "city": "Odell",
-  "forecast_origin": "2026-10-15",
-  "issued_at": "2026-11-03T16:59:09+00:00",
-  "first_date": "2026-06-18",
-  "last_date": "2027-01-13",
+  "forecast_origin": "2026-10-29",
+  "issued_at": "2026-11-06T04:38:29+00:00",
+  "first_date": "2026-07-02",
+  "last_date": "2027-01-27",
   "model_tag": "s11h1c1",
   "quantity": "ED visits due to flu",
   "units": "proportion of ED visits",
