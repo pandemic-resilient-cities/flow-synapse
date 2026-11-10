@@ -1,0 +1,30 @@
+{
+  "city": "Stanfield",
+  "forecast_origin": "2026-10-15",
+  "issued_at": "2026-11-10T23:14:01+00:00",
+  "first_date": "2026-06-18",
+  "last_date": "2027-01-13",
+  "model_tag": "s11h1c1",
+  "quantity": "ED visits due to flu",
+  "units": "proportion of ED visits",
+  "smoothing": {
+    "window_days": 7,
+    "centered": true,
+    "min_periods": 1
+  },
+  "quantiles": {
+    "q10": 0.1,
+    "q50": 0.5,
+    "q90": 0.9
+  },
+  "display_units": "Percent of ED visits",
+  "display_multiplier": 100,
+  "edv_calibration": {
+    "model": "tanh_proportion",
+    "lower": 0.0,
+    "upper": 0.1,
+    "midpoint": 0.0035,
+    "rate": 800
+  },
+  "simulation_count": 100
+}
